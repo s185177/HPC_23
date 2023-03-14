@@ -23,7 +23,7 @@ def timefn(fn):
 # Time decorator wrap
 @timefn
 # Used for line-profiling and memory-profiling
-@profile
+# @profile
 def calc_pure_python(desired_width, max_iterations):
     """Create a list of complex coordinates (zs) and complex parameters (cs),
     build Julia set"""
